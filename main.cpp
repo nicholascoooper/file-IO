@@ -4,7 +4,7 @@
 #include <sstream>
 
 int main(){
-	
+	//variables
 	int num1;
 	int num2;
 	int addnum;
@@ -33,11 +33,11 @@ int main(){
 			addnum = num1 + num2;
 			for(int i = 0 ; i< addnum; i++){
 				std::cout<<string1<<" ";
-				}
+				}//end for
 			std::cout<<std::endl;
-		}
+		}//end ifelse
 
-	}
+	}//end keepgoing
 	inFile.close();	
 	return 0;
-}
+}//end main
