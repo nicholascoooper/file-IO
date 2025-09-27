@@ -19,7 +19,7 @@ int main(){
 	while (keepGoing){
 		std::getline(inFile, strnum1, ',');
 		std::getline(inFile, strnum2, ',');
-		std::getline(inFile, string1, ',');
+		std::getline(inFile, string1);
 		ss.clear();
 		if(inFile.eof()){
 			keepGoing = false;
@@ -32,7 +32,7 @@ int main(){
 			ss.clear();
 			addnum = num1 + num2;
 			for(int i = 0 ; i< addnum; i++){
-				std::cout<<string1<<std::endl;
+				std::cout<<string1<<" ";
 				}
 			std::cout<<std::endl;
 		}
